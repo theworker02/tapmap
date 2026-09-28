@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tapmap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tap validation gates for map inputs before they hit prod.",
+  "bin": {
+    "tapmap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tapmap.git"
+  },
+  "homepage": "https://theworker02.github.io/tapmap/",
+  "keywords": [
+    "tap",
+    "map",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
